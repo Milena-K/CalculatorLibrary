@@ -9,6 +9,7 @@ def subtract(x: float, y: float) -> float:
 def multiply(x: float, y: float) -> float:
     return x * y
 
+
 def divide(x: float, y: float) -> float | None:
     try:
         return x / y
